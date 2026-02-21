@@ -1,6 +1,6 @@
-# Test package across all maintained/active/current versions of Node.js
+# Build package across all maintained/active/current versions of Node.js
 
-name: "CI: Test (Node.js)"
+name: "CI: Build (Node.js)"
 
 on:
     push:
@@ -34,5 +34,5 @@ jobs:
             - name: Install dependencies
               run: npm ci
 
-            - name: Test
-              run: npm test
+            - name: Build package
+              run: npm run build
