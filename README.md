@@ -55,7 +55,7 @@ Astro (with React)
 
 ```astro
 ---
-import { GithubCard } from "../../../../src/GithubCard";
+import { GithubCard } from "github-cards-react";
 ---
 
 <html lang="en">
