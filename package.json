@@ -1,6 +1,6 @@
 {
     "name": "github-cards-react",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Lightweight React component for displaying GitHub repository cards.",
     "license": "MIT",
     "author": "GalvinPython",
@@ -51,6 +51,7 @@
     },
     "type": "module",
     "dependencies": {
-        "@primer/octicons-react": "^19.22.0"
+        "@primer/octicons-react": "^19.22.0",
+        "linguist-colors-list": "^1.0.20260223"
     }
 }
