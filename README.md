@@ -71,11 +71,12 @@ import { GithubCard } from "github-cards-react";
 
 # Props
 
-| Prop       | Type                | Required | Description                          |
-| ---------- | ------------------- | -------- | ------------------------------------ |
-| `username` | `string`            | Yes      | GitHub username or organization name |
-| `repo`     | `string`            | Yes      | Repository name                      |
-| `theme`    | `"light" \| "dark"` | No       | Visual theme. Defaults to `"light"`  |
+| Prop             | Type                | Required | Description                                              |
+| ---------------- | ------------------- | -------- | -------------------------------------------------------- |
+| `username`       | `string`            | Yes      | GitHub username or organization name                     |
+| `repo`           | `string`            | Yes      | Repository name                                          |
+| `theme`          | `"light" \| "dark"` | No       | Visual theme. Defaults to `"light"`                      |
+| `showLanguagesBar` | `boolean`         | No       | Whether to fetch and display the languages bar. Defaults to `false` |
 
 # Testing
 

@@ -54,7 +54,6 @@ const GithubCardBase: React.FC<GithubCardBaseProps> = ({
     username,
     theme,
     data,
-    showLanguagesBar = false,
 }) => {
     const isDark = theme === "dark";
 
