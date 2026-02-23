@@ -1,1 +1,2 @@
-export { GithubCard } from "./GithubCard";
+export { GithubCard, GithubCardDummy } from "./GithubCard";
+export type { GithubRepoData } from "./GithubCard";
