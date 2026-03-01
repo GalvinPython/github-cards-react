@@ -1,5 +1,9 @@
 # GitHub Card
 
+[![CI: Build (Node.js)](https://github.com/GalvinPython/github-cards-react/actions/workflows/build-node.yml/badge.svg)](https://github.com/GalvinPython/github-cards-react/actions/workflows/build-node.yml)
+[![NPM Version](https://img.shields.io/npm/v/managedenv)](https://www.npmjs.com/package/managedenv)
+[![Supported NodeJS Versions](https://img.shields.io/badge/NodeJS%20Versions-20,22,24,25-blue)](https://www.npmjs.com/package/managedenv)
+
 A lightweight React component for displaying GitHub repository cards.
 
 ![Example here](https://raw.githubusercontent.com/GalvinPython/github-cards-react/main/.github/assets/example.png)
