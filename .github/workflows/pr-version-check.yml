@@ -9,10 +9,13 @@ on:
             - "package-lock.json"
             - "**/*.ts"
             - "**/*.tsx"
+        types:
+            - labeled
 
 jobs:
     check-version:
         runs-on: ubuntu-slim
+        if: github.actor != 'dependabot[bot]' && !contains(github.event.pull_request.labels.*.name, 'ignore-version-bump')
 
         steps:
             - name: Checkout
