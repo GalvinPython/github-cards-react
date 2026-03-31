@@ -10,6 +10,9 @@ on:
             - "**/*.ts"
             - "**/*.tsx"
         types:
+            - opened
+            - synchronize
+            - reopened
             - labeled
 
 jobs:
