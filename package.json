@@ -1,6 +1,6 @@
 {
     "name": "github-cards-react",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "Lightweight React component for displaying GitHub repository cards.",
     "license": "MIT",
     "author": "GalvinPython",
@@ -24,6 +24,9 @@
     "files": [
         "dist"
     ],
+    "engines": {
+        "node": ">=20.19.0"
+    },
     "main": "./dist/index.cjs",
     "module": "./dist/index.js",
     "types": "./dist/index.d.ts",
@@ -35,8 +38,8 @@
         }
     },
     "scripts": {
-        "build": "tsup",
-        "dev": "tsup --watch",
+        "build": "tsdown",
+        "dev": "tsdown --watch",
         "typecheck": "tsc --noEmit"
     },
     "peerDependencies": {
@@ -46,8 +49,8 @@
     "devDependencies": {
         "@types/react": "^18.0.0",
         "@types/react-dom": "^18.0.0",
-        "tsup": "^8.5.1",
-        "typescript": "^5.9.3"
+        "tsdown": "^0.21.7",
+        "typescript": "^6.0.2"
     },
     "type": "module",
     "dependencies": {
